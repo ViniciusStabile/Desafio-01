@@ -1,7 +1,10 @@
 package desafio.services;
 
+import org.springframework.stereotype.Service;
+
 import desafio.entities.Order;
 
+@Service
 public class ShippingService {
 
 	public double shipment(Order order) {
